@@ -1,11 +1,19 @@
 
+import {BrowserRouter as Router} from 'react-router-dom';
+// import { GlobalProvider } from './context/GlobalContext';
 import './App.css';
+import AppRouter from './router/AppRouter';
+
 
 const App = () => {
   return (
-    <div className="App">
-     
-    </div>
+    <Router>
+      
+      <AppRouter />
+      
+       
+    </Router>
+      
   );
 }
 
