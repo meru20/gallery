@@ -30,7 +30,7 @@ const SingleLipstickCard = ({lip}) => {
                         
                     </ul>
                 </div>
-                <a target="_blank" class="buy-button" href="https://www.boosh.ca/collections/all">Buy Now</a>
+                <a target="_blank" className="buy-button" href={lip.product_link}>Buy Now</a>
                     
                 </div>
                 </div>
